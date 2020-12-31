@@ -1,2 +1,5 @@
 /images
 /__pycache__
+/FOOD
+*.npy
+/log
