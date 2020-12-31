@@ -18,7 +18,7 @@ model = get_model(IMG_SIZE, no_of_fruits, LR)
 model.load(model_save_at)
 labels = list(np.load('labels.npy'))
 
-test_data = 'test4.jpg'
+test_data = 'test5.jpg'
 img = cv2.imread(test_data)
 img1 = cv2.resize(img, (IMG_SIZE, IMG_SIZE))
 model_out = model.predict([img1])
